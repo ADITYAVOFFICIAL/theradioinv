@@ -31,6 +31,6 @@ JS FILES = 1<br>
 CSS FILES = 1<br>
 MISC = 69<br>
 
-instagram = https://www.instagram.com/aditya_verma_real/ <br>
+Instagram = https://www.instagram.com/aditya_verma_real/ <br>
 TWITTER = https://twitter.com/ADITYAVOFFICIAL<br>
 GITHUB = https://github.com/ADITYAVOFFICIAL<br>
