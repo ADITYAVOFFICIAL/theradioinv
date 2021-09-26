@@ -1,7 +1,7 @@
 /**
   <!-- =======================================================
-  * Template Name: TheRadioInv
-  * website URL: https://theradioinv.adityavermareal.repl.co/
+  * Website Name: TheRadioInv
+  * Website URL: https://theradioinv.adityavermareal.repl.co/
   * Author: Aditya Verma
   * License: MIT License
   ======================================================== -->
@@ -158,9 +158,9 @@
   });
 
   /**
-   * Clients Slider
+   * Logo Slider
    */
-  new Swiper('.clients-slider', {
+  new Swiper('.logo-slider', {
     speed: 400,
     loop: true,
     autoplay: {
