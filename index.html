@@ -23,10 +23,15 @@
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
 
 
   <!-- Vendor CSS Files -->
@@ -48,6 +53,21 @@
   ======================================================== -->
 </head>
 <style>
+  .responsive-youtube {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+
+  .responsive-youtube iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
   ::-moz-selection {
     /* Code for Firefox */
     color: white;
@@ -77,12 +97,14 @@
           <li><a class="nav-link scrollto" href="index.html#about">Inventor</a></li>
           <li><a class="nav-link scrollto" href="index.html#features">Features</a></li>
           <li><a class="nav-link scrollto" href="index.html#Details">Details</a></li>
-          <li><a class="nav-link scrollto" href="index.html#Gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="index.html#recent-blog-posts">Extras</a></li>
+          <li><a class="nav-link scrollto" href="index.html#cta">Videos</a></li>
+          <li><a class="nav-link scrollto" href="index.html#Gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
           <li class="dropdown"><a href="#"><span>Services Used</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="https://www.canva.com/">Canva</a></li>
+              <li><a href="https://www.freepik.com/">Freepik</a></li>
               <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
               <li><a href="https://remixicon.com/">Remix Icons</a></li>
               <li><a href="https://en.wikipedia.org/">Wikipedia</a></li>
@@ -113,7 +135,7 @@
               <a href="#about"
                 class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Get Started</span>
-                <i class="bi bi-arrow-right"></i>
+                <i class="bi bi-arrow-down"></i>
               </a>
             </div>
           </div>
@@ -181,24 +203,26 @@
           <div class="col-lg-4">
             <div class="box" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/values.png" class="img-fluid" alt="">
-              <h3>Armed Forces</h3>
-              <p>To convey encrypted messages and data</p>
+              <h3 style="font-family:'Staatliches', cursive;">Armed Forces</h3>
+              <p style="font-family:'Josefin Sans', sans-serif;">To convey encrypted messages and data</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="fade-up" data-aos-delay="400">
               <img src="assets/img/values-3.png" class="img-fluid" alt="">
-              <h3>Rescue</h3>
-              <p>Helps in communicating during a rescue or extraction operations</p>
+              <h3 style="font-family:'Staatliches', cursive;">Rescue</h3>
+              <p style="font-family:'Josefin Sans', sans-serif;">Helps in communicating during a rescue or extraction
+                operations</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="fade-up" data-aos-delay="600">
               <img src="assets/img/values-2.png" class="img-fluid" alt="">
-              <h3>Scientific Use</h3>
-              <p>For Scientific studies and monitoring<br>and space exploration</p>
+              <h3 style="font-family:'Staatliches', cursive;">Scientific Use</h3>
+              <p style="font-family:'Josefin Sans', sans-serif;">For Scientific studies and monitoring<br>and space
+                exploration</p>
             </div>
           </div>
 
@@ -218,7 +242,7 @@
             <div class="count-box">
               <i class="ri-heart-pulse-fill"></i>
               <div>
-                <span data-purecounter-start="1000" data-purecounter-end="31145219" data-purecounter-duration="40"
+                <span data-purecounter-start="1000" data-purecounter-end="31145219" data-purecounter-duration="20"
                   class="purecounter"></span>
                 <p><b>Lives Saved</b></p>
               </div>
@@ -229,7 +253,7 @@
             <div class="count-box">
               <i class="ri-radio-fill" style="color: #ee6c20;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="5012220543" data-purecounter-duration="30"
+                <span data-purecounter-start="0" data-purecounter-end="5012220543" data-purecounter-duration="10"
                   class="purecounter"></span>
                 <p><b>Number of radios produced</b></p>
               </div>
@@ -240,7 +264,7 @@
             <div class="count-box">
               <i class="ri-user-voice-fill" style="color: #15be56;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="7014300140" data-purecounter-duration="30"
+                <span data-purecounter-start="0" data-purecounter-end="7014300140" data-purecounter-duration="20"
                   class="purecounter"></span>
                 <p><b>People use radio in some form</b></p>
               </div>
@@ -310,14 +334,14 @@
                 </div>
               </div>
 
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-megaphone-fill"></i>
                   <h3>A Mass Medium</h3>
                 </div>
               </div>
 
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-phone-fill"></i>
                   <h3>A Mobile Medium</h3>
@@ -340,6 +364,8 @@
                       style="color: rgb(20, 18, 46)">Radio</a>
                   </h2>
                   <p><b>
+                      Radio is the technology of signaling and communicating using radio waves. Radio waves are
+                      electromagnetic waves of frequency between 30 hertz and 300 gigahertz.<br><br>
                       The invention of radio communication spanned many decades of experimental investigation of radio
                       waves, establishment of theoretical underpinnings, engineering and technical developments, and
                       adaptation to signaling. The work of many scientists culminated in the building of an engineering
@@ -350,7 +376,7 @@
                     <a href="#Details"
                       class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                       <span>Details</span>
-                      <i class="bi bi-arrow-right"></i>
+                      <i class="bi bi-arrow-down"></i>
                     </a>
                   </div>
                 </div>
@@ -571,8 +597,8 @@
       </div>
 
     </section><!-- End Features Section -->
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <!-- ======= Logo Section ======= -->
+    <section id="logo" class="logo">
 
       <div class="container" data-aos="fade-up">
 
@@ -581,7 +607,7 @@
           <p>Brands that manufacure or used to manufacture radios</p>
         </header>
 
-        <div class="clients-slider swiper-container">
+        <div class="logo-slider swiper-container">
           <div class="swiper-wrapper align-items-center">
             <div class="swiper-slide"><img
                 src="https://cdn.freebiesupply.com/logos/large/2x/revo-logo-png-transparent.png" class="img-fluid"
@@ -627,7 +653,7 @@
         </div>
       </div>
 
-    </section><!-- End Clients Section -->
+    </section><!-- End Logo Section -->
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
 
@@ -643,7 +669,7 @@
           <div class="col-lg-4">
             <div class="post-box">
               <div class="post-img"><img src="assets/img/blog/covrad1.png" class="img-fluid" alt=""></div>
-              <span class="post-date">Thu, October 21</span>
+              <span class="post-date">Sun, September 26</span>
               <h3 class="post-title">How radio became a key way to communicate during Covid-19</h3>
               <a href="covrad.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
                   class="bi bi-arrow-right"></i></a>
@@ -653,7 +679,7 @@
           <div class="col-lg-4">
             <div class="post-box">
               <div class="post-img"><img src="assets/img/blog/war1.png" class="img-fluid" alt=""></div>
-              <span class="post-date">Thu, October 21</span>
+              <span class="post-date">Sun, September 26</span>
               <h3 class="post-title">Radio during World Wars</h3>
               <a href="war.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
                   class="bi bi-arrow-right"></i></a>
@@ -663,7 +689,7 @@
           <div class="col-lg-4">
             <div class="post-box">
               <div class="post-img"><img src="assets/img/blog/space1.png" class="img-fluid" alt=""></div>
-              <span class="post-date">Thu, October 21</span>
+              <span class="post-date">Sun, September 26</span>
               <h3 class="post-title">‘One small step’ was a breakthrough in radio communications</h3>
               <a href="space.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
                   class="bi bi-arrow-right"></i></a>
@@ -691,7 +717,8 @@
             <div class="service-box blue">
               <i class="ri-discuss-line icon"></i>
               <h3>Wireless communication theories and methods previous to radio</h3>
-              <p>Before the discovery of electromagnetic waves and the development of radio communication there were....
+              <p style="font-family:Space Grotesk">Before the discovery of electromagnetic waves and the development of
+                radio communication there were....
               </p>
               <a href="de1.html" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
@@ -701,7 +728,7 @@
             <div class="service-box orange">
               <i class="ri-discuss-line icon"></i>
               <h3>Development of radio waves</h3>
-              <p>The Branly detector, Lodge's demonstrations & J. C. Bose</p>
+              <p style="font-family:Space Grotesk">The Branly detector, Lodge's demonstrations & J. C. Bose</p>
               <a href="de2.html" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -710,7 +737,7 @@
             <div class="service-box green">
               <i class="ri-discuss-line icon"></i>
               <h3>Adaptations of radio waves</h3>
-              <p>Popov's lightning detector & Tesla's boat</p>
+              <p style="font-family:Space Grotesk">Popov's lightning detector & Tesla's boat</p>
               <a href="de3.html" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -719,7 +746,7 @@
             <div class="service-box red">
               <i class="ri-discuss-line icon"></i>
               <h3>Radio based wireless telegraphy</h3>
-              <p>Marconi, Braun & Stone Stone.</p>
+              <p style="font-family:Space Grotesk">Marconi, Braun & Stone Stone.</p>
               <a href="de4.html" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -728,7 +755,7 @@
             <div class="service-box purple">
               <i class="ri-discuss-line icon"></i>
               <h3>Wireless telephony</h3>
-              <p>Fessenden, Fleming & De Forest.</p>
+              <p style="font-family:Space Grotesk">Fessenden, Fleming & De Forest.</p>
               <a href="de5.html" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -737,7 +764,8 @@
             <div class="service-box pink">
               <i class="ri-discuss-line icon"></i>
               <h3>Radio invention timeline</h3>
-              <p>below is a brief selection of important events and individuals related to the development of radio,
+              <p style="font-family:Space Grotesk">below is a brief selection of important events and individuals
+                related to the development of radio,
                 from
                 1860 to 1910.</p>
               <a href="de6.html" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
@@ -882,7 +910,82 @@
       </div>
 
     </section><!-- End F.A.Q Section -->
+    <!-- ======= Service Section ======= -->
+    <section id="radcomp" class="logo">
 
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Radio Companies</h2>
+          <p>Radio Broadcasting Services</p>
+        </header>
+
+        <div class="logo-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/IHeartMedia_logo.svg/1280px-IHeartMedia_logo.svg.png"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img
+                src="https://www.cumulusmedia.com/wp-content/uploads/2019/08/CUMULUS-MEDIA-Horizontal.png"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img
+                src="https://image4.owler.com/logo/townsquare-media_owler_20160226_183414_original.png"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/en/4/44/Entercomlogo.png"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://s26.q4cdn.com/551947498/files/images/irw/saga-logo-web.png"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img
+                src="https://content3.jdmagicbox.com/comp/tirunelveli/w3/pwfl1536741723k2g4w3/catalogue/-7uzoefdfd9.jpg?clr=525214"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img
+                src="https://seeklogo.com/images/S/superhit-red-fm-logo-DE24B73176-seeklogo.com.png" class="img-fluid"
+                alt=""></div>
+            <div class="swiper-slide"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/7/74/BIGFM_NEW_LOGO_2019.png" class="img-fluid"
+                alt=""></div>
+            <div class="swiper-slide"><img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Logo_of_AIR.svg/1200px-Logo_of_AIR.svg.png"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img
+                src="https://play-lh.googleusercontent.com/SMFPx3RqAoyTP03fYM-JAuWO0FUfFXoRZitq5ANq165dUMqHaWSFjraUPGfzQpEWJrw"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/en/6/66/Fever-104-FM-Logo.png"
+                class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://mytuner.global.ssl.fastly.net/media/tvos_radios/yjV9GpEEcw.png"
+                class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section><!-- End Service Section -->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3 style="font-family:'Roboto Slab', serif;">Informative Videos to understand about radio</h3>
+          <p style="font-family:Space Grotesk">Provided by YouTube Premium</p>
+          <a class="cta-btn" href="https://www.youtube.com/watch?v=drLxfjqZHVo"
+            style="font-family:'Russo One', sans-serif;">First Video</a>
+          <a class="cta-btn" href="https://youtu.be/0UKCUMghTrc" style="font-family:'Russo One', sans-serif;">Second
+            Video</a>
+          <a class="cta-btn" href="https://www.youtube.com/watch?v=71pAgRgNhd8"
+            style="font-family:'Russo One', sans-serif;">Third Video</a>
+          <br>
+          <br>
+          <div class="responsive-youtube">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/drLxfjqZHVo"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- End Cta Section -->
     <!-- ======= Gallery Section ======= -->
     <section id="Gallery" class="Gallery">
 
@@ -900,7 +1003,9 @@
               <li data-filter=".filter-am">AM</li>
               <li data-filter=".filter-ham">HAM</li>
               <li data-filter=".filter-fm">FM</li>
+              <li data-filter=".filter-short">Shortwave Radio</li>
               <li data-filter=".filter-sat">Satellite</li>
+              <li data-filter=".filter-walk">Walkie-Talkie</li>
             </ul>
           </div>
         </div>
@@ -923,38 +1028,6 @@
 
           <div class="col-lg-4 col-md-6 Gallery-item filter-sat">
             <div class="Gallery-wrap">
-              <img src="https://sxm.ips.photos/sxm-java/images/cms/8_ONE_SIZE_IMAGE_01_473.jpg" class="img-fluid"
-                alt="SIRIUS">
-              <div class="Gallery-info">
-                <h4>SIRIUS</h4>
-                <p>SATELLITE RADIO</p>
-                <div class="Gallery-links">
-                  <a href="https://sxm.ips.photos/sxm-java/images/cms/8_ONE_SIZE_IMAGE_01_473.jpg"
-                    data-gallery="Gallery" class="gallery-lightbox" title="SIRIUS"><i class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-fm">
-            <div class="Gallery-wrap">
-              <img src="https://n4.sdlcdn.com/imgs/i/g/o/Philips-DL225-FM-Radio-Players-SDL775204227-1-96efa.jpeg"
-                class="img-fluid" alt="Philips DL225 FM Radio">
-              <div class="Gallery-info">
-                <h4>Philips DL225 FM Radio</h4>
-                <p>fm</p>
-                <div class="Gallery-links">
-                  <a href="https://n4.sdlcdn.com/imgs/i/g/o/Philips-DL225-FM-Radio-Players-SDL775204227-1-96efa.jpeg"
-                    data-gallery="Gallery" class="gallery-lightbox" title="Philips DL225 FM Radio"><i
-                      class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-sat">
-            <div class="Gallery-wrap">
               <img
                 src="https://www.lifewire.com/thmb/zvdZ8Iv7y90r8de5u08Ld2H-YnM=/1500x844/smart/filters:no_upscale()/SiriusXM-Satellite-Radio-SXPL1V1-Onyx-Plus-582b4f485f9b58d5b14bd42e.jpg"
                 class="img-fluid" alt="SiriusXM Satellite Radio SXPL1V1 Onyx Plus">
@@ -965,21 +1038,6 @@
                   <a href="https://www.lifewire.com/thmb/zvdZ8Iv7y90r8de5u08Ld2H-YnM=/1500x844/smart/filters:no_upscale()/SiriusXM-Satellite-Radio-SXPL1V1-Onyx-Plus-582b4f485f9b58d5b14bd42e.jpg"
                     data-gallery="Gallery" class="gallery-lightbox"
                     title="SiriusXM Satellite Radio SXPL1V1 Onyx Plus"><i class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-am">
-            <div class="Gallery-wrap">
-              <img src="https://techengage.com/wp-content/uploads/2020/08/best-am-radios.jpg" class="img-fluid" alt="">
-              <div class="Gallery-info">
-                <h4>Silver 10 Band AM Radio</h4>
-                <p>AM RADIO</p>
-                <div class="Gallery-links">
-                  <a href="https://techengage.com/wp-content/uploads/2020/08/best-am-radios.jpg" data-gallery="Gallery"
-                    class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -998,52 +1056,51 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-ham">
+          <div class="col-lg-4 col-md-6 Gallery-item filter-short">
             <div class="Gallery-wrap">
-              <img src="https://assets.rbl.ms/25589120/origin.jpg" class="img-fluid" alt="">
+              <img src="https://ifpnews.com/wp-content/uploads/2020/06/IMG_20200626_125520_384.jpg" class="img-fluid"
+                alt="SiriusXM Satellite Radio SXPL1V1 Onyx Plus">
               <div class="Gallery-info">
-                <h4>HAM Radio</h4>
-                <p>ham</p>
-                <div class="Gallery-links">
-                  <a href="https://pixfeeds.com/images/topic/7155/1200-7155-radio-advertising-photo2.jpg"
-                    data-gallery="Gallery" class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-sat">
-            <div class="Gallery-wrap">
-              <img src="https://www.thedrive.com/content-b/message-editor%2F1594736635787-radio.jpg?quality=60"
-                class="img-fluid" alt="SIRIUS">
-              <div class="Gallery-info">
-                <h4>SIRIUS</h4>
+                <h4>SiriusXM Satellite Radio SXPL1V1 Onyx Plus</h4>
                 <p>SATELLITE RADIO</p>
                 <div class="Gallery-links">
-                  <a href="https://www.thedrive.com/content-b/message-editor%2F1594736635787-radio.jpg?quality=60"
-                    data-gallery="Gallery" class="gallery-lightbox" title="SIRIUS"><i class="ri-gallery-fill"></i></a>
+                  <a href="https://ifpnews.com/wp-content/uploads/2020/06/IMG_20200626_125520_384.jpg"
+                    data-gallery="Gallery" class="gallery-lightbox"
+                    title="SiriusXM Satellite Radio SXPL1V1 Onyx Plus"><i class="ri-gallery-fill"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-fm">
+          <div class="col-lg-4 col-md-6 Gallery-item filter-walk">
             <div class="Gallery-wrap">
-              <img
-                src="https://economictimes.indiatimes.com/thumb/msid-74766096,width-1200,height-900,resizemode-4,imgsize-286906/1.jpg?from=mdr"
-                class="img-fluid" alt="">
+              <img src="https://5.imimg.com/data5/BG/XX/MY-18761044/walkie-talkie-500x500.jpg" class="img-fluid"
+                alt="SiriusXM Satellite Radio SXPL1V1 Onyx Plus">
               <div class="Gallery-info">
-                <h4></h4>
-                <p>FM RADIO</p>
+                <h4>SiriusXM Satellite Radio SXPL1V1 Onyx Plus</h4>
+                <p>SATELLITE RADIO</p>
                 <div class="Gallery-links">
-                  <a href="https://economictimes.indiatimes.com/thumb/msid-74766096,width-1200,height-900,resizemode-4,imgsize-286906/1.jpg?from=mdr"
-                    data-gallery="Gallery" class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
+                  <a href="https://5.imimg.com/data5/BG/XX/MY-18761044/walkie-talkie-500x500.jpg" data-gallery="Gallery"
+                    class="gallery-lightbox" title="SiriusXM Satellite Radio SXPL1V1 Onyx Plus"><i
+                      class="ri-gallery-fill"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 Gallery-item filter-short">
+            <div class="Gallery-wrap">
+              <img src="https://cdn.britannica.com/35/129135-004-D901104B/radio.jpg" class="img-fluid"
+                alt="SiriusXM Satellite Radio SXPL1V1 Onyx Plus">
+              <div class="Gallery-info">
+                <h4>SiriusXM Satellite Radio SXPL1V1 Onyx Plus</h4>
+                <p>SATELLITE RADIO</p>
+                <div class="Gallery-links">
+                  <a href="https://cdn.britannica.com/35/129135-004-D901104B/radio.jpg" data-gallery="Gallery"
+                    class="gallery-lightbox" title="SiriusXM Satellite Radio SXPL1V1 Onyx Plus"><i
+                      class="ri-gallery-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 Gallery-item filter-sat">
             <div class="Gallery-wrap">
               <img src="https://www.pioneerelectronics.com/StaticFiles/PUSA/Images/xmp3-frontback-lrg.jpg"
@@ -1058,56 +1115,42 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-am">
+          <div class="col-lg-4 col-md-6 Gallery-item filter-short">
             <div class="Gallery-wrap">
-              <img src="https://www.dailynews.com/wp-content/uploads/2020/06/iStock-157509011-1.jpg" class="img-fluid"
-                alt="">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Grundig_Satellit_Professional_400.JPG"
+                class="img-fluid" alt="SiriusXM Satellite Radio SXPL1V1 Onyx Plus">
               <div class="Gallery-info">
-                <h4></h4>
-                <p>AM RADIO</p>
+                <h4>SiriusXM Satellite Radio SXPL1V1 Onyx Plus</h4>
+                <p>SATELLITE RADIO</p>
                 <div class="Gallery-links">
-                  <a href="https://www.dailynews.com/wp-content/uploads/2020/06/iStock-157509011-1.jpg"
-                    data-gallery="Gallery" class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
+                  <a href="https://upload.wikimedia.org/wikipedia/commons/8/87/Grundig_Satellit_Professional_400.JPG"
+                    data-gallery="Gallery" class="gallery-lightbox"
+                    title="SiriusXM Satellite Radio SXPL1V1 Onyx Plus"><i class="ri-gallery-fill"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 Gallery-item filter-walk">
+            <div class="Gallery-wrap">
+              <img
+                src="https://eclats-antivols.fr/64598-thickbox_default/walkie-talkie-cobra-pmr-8-km-range-8-channel-black-orange-am645.jpg"
+                class="img-fluid" alt="SiriusXM Satellite Radio SXPL1V1 Onyx Plus">
+              <div class="Gallery-info">
+                <h4>SiriusXM Satellite Radio SXPL1V1 Onyx Plus</h4>
+                <p>SATELLITE RADIO</p>
+                <div class="Gallery-links">
+                  <a href="https://eclats-antivols.fr/64598-thickbox_default/walkie-talkie-cobra-pmr-8-km-range-8-channel-black-orange-am645.jpg"
+                    data-gallery="Gallery" class="gallery-lightbox"
+                    title="SiriusXM Satellite Radio SXPL1V1 Onyx Plus"><i class="ri-gallery-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 Gallery-item filter-ham">
             <div class="Gallery-wrap">
               <img
                 src="https://wpr-public.s3.amazonaws.com/wprorg/styles/facebook/s3/images/segments/2665998637_8a5465c7af_b.jpg?itok=y0x12o-j"
                 class="img-fluid" alt="">
-              <div class="Gallery-info">
-                <h4>HAM Radio</h4>
-                <p>ham</p>
-                <div class="Gallery-links">
-                  <a href="https://pixfeeds.com/images/topic/7155/1200-7155-radio-advertising-photo2.jpg"
-                    data-gallery="Gallery" class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-am">
-            <div class="Gallery-wrap">
-              <img src="https://jacobsmedia.com/wp-content/uploads/2020/01/am-radio-istock-scaled.jpg" class="img-fluid"
-                alt="">
-              <div class="Gallery-info">
-                <h4></h4>
-                <p>AM RADIO</p>
-                <div class="Gallery-links">
-                  <a href="https://jacobsmedia.com/wp-content/uploads/2020/01/am-radio-istock-scaled.jpg"
-                    data-gallery="Gallery" class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-ham">
-            <div class="Gallery-wrap">
-              <img src="https://gisuser.com/wp-content/uploads/2021/02/2021-02-09_8-29-35.png" class="img-fluid" alt="">
               <div class="Gallery-info">
                 <h4>HAM Radio</h4>
                 <p>ham</p>
@@ -1134,7 +1177,21 @@
               </div>
             </div>
           </div>
-
+          <div class="col-lg-4 col-md-6 Gallery-item filter-walk">
+            <div class="Gallery-wrap">
+              <img src="https://icdn.digitaltrends.com/image/digitaltrends/baofeng-uv-5r-1500x1000.jpg"
+                class="img-fluid" alt="SiriusXM Satellite Radio SXPL1V1 Onyx Plus">
+              <div class="Gallery-info">
+                <h4>SiriusXM Satellite Radio SXPL1V1 Onyx Plus</h4>
+                <p>SATELLITE RADIO</p>
+                <div class="Gallery-links">
+                  <a href="https://icdn.digitaltrends.com/image/digitaltrends/baofeng-uv-5r-1500x1000.jpg"
+                    data-gallery="Gallery" class="gallery-lightbox"
+                    title="SiriusXM Satellite Radio SXPL1V1 Onyx Plus"><i class="ri-gallery-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6 Gallery-item filter-fm">
             <div class="Gallery-wrap">
               <img src="https://img.joomcdn.net/a50bbe11558f81d0ed0608772d3c67aac837851b_original.jpeg"
@@ -1161,23 +1218,6 @@
                 <div class="Gallery-links">
                   <a href="https://pixfeeds.com/images/topic/7155/1200-7155-radio-advertising-photo2.jpg"
                     data-gallery="Gallery" class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 Gallery-item filter-fm">
-            <div class="Gallery-wrap">
-              <img
-                src="https://lh4.googleusercontent.com/k6LLkEn0UEh56iB-KNfnUV901OHWwsgkthSdl-ty0cYSgi23b23XeXyycyzqfqqv_fb2-etg535PAQqRpab5F6Wm7Q3sC35a7ELKb-4qy9s0l1Th4dR0ipknDLqmoMIsRrP84X0c"
-                class="img-fluid" alt="Saregama Carvaan Portable FM Radio">
-              <div class="Gallery-info">
-                <h4>Saregama Carvaan Portable FM Radio</h4>
-                <p>FM RADIO</p>
-                <div class="Gallery-links">
-                  <a href="https://lh4.googleusercontent.com/k6LLkEn0UEh56iB-KNfnUV901OHWwsgkthSdl-ty0cYSgi23b23XeXyycyzqfqqv_fb2-etg535PAQqRpab5F6Wm7Q3sC35a7ELKb-4qy9s0l1Th4dR0ipknDLqmoMIsRrP84X0c"
-                    data-gallery="Gallery" class="gallery-lightbox" title="Saregama Carvaan Portable FM Radio"><i
-                      class="ri-gallery-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -1244,21 +1284,6 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 Gallery-item filter-ham">
-            <div class="Gallery-wrap">
-              <img src="https://images.outlookindia.com/public/uploads/blogsimages/Ham_Radio_630_630.jpg"
-                class="img-fluid" alt="">
-              <div class="Gallery-info">
-                <h4>HAM Radio</h4>
-                <p>ham</p>
-                <div class="Gallery-links">
-                  <a href="https://pixfeeds.com/images/topic/7155/1200-7155-radio-advertising-photo2.jpg"
-                    data-gallery="Gallery" class="gallery-lightbox" title="am 1"><i class="ri-gallery-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
@@ -1289,8 +1314,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/blog/comments-2.jpg" class="Reviews-img" alt="">
-                  <h3>Lavanya Bhalla</h3>
-                  <h4>Student</h4>
+                  <h3 style="font-family:'Roboto Slab', serif;">Lavanya Bhalla</h3>
+                  <h4 style="font-family:'Russo One', sans-serif;">Student</h4>
                 </div>
               </div>
             </div><!-- End Reviews item -->
@@ -1306,8 +1331,8 @@
                 <div class="profile mt-auto">
                   <img src="https://climchan.adityavermareal.repl.co/assets/img/comments/com-2.jpg" class="Reviews-img"
                     alt="">
-                  <h3>Spurty Kamath</h3>
-                  <h4>Architect Student</h4>
+                  <h3 style="font-family:'Roboto Slab', serif;">Spurty Kamath</h3>
+                  <h4 style="font-family:'Russo One', sans-serif;">Architect Student</h4>
                 </div>
               </div>
             </div>
@@ -1322,8 +1347,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/blog/comments-4.jpg" class="Reviews-img" alt="">
-                  <h3>Samarth</h3>
-                  <h4>Student</h4>
+                  <h3 style="font-family:'Roboto Slab', serif;">Samarth</h3>
+                  <h4 style="font-family:'Russo One', sans-serif;">Student</h4>
                 </div>
               </div>
             </div>
@@ -1339,8 +1364,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/blog/comments-3.jpg" class="Reviews-img" alt="">
-                  <h3>Lakshay</h3>
-                  <h4>Student</h4>
+                  <h3 style="font-family:'Roboto Slab', serif;">Lakshay</h3>
+                  <h4 style="font-family:'Russo One', sans-serif;">Student</h4>
                 </div>
               </div>
             </div>
@@ -1375,21 +1400,22 @@
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Address</h3>
-                  <p>NOFRA,<br>Mumbai, India</p>
+                  <p><a href="https://goo.gl/maps/6mvNYWvbuGo4yPgP9" target="blank"><b>NOFRA,<br>Mumbai, India</a></b>
+                  </p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+91 9967724752</p>
+                  <p><a href="tel:9967724752"><b>+91 9967724752</a></b></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Me</h3>
-                  <p>adityaverma7578@gmail.com</p>
+                  <p><b><a href="mailto:adityaverma7578@gmail.com">adityaverma7578@gmail.com</a></b></p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -1409,19 +1435,23 @@
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  <input type="text" name="name" style="font-family:'Nosifer', cursive;" class="form-control"
+                    placeholder="Your Name" required>
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  <input type="email" style="font-family:'Nosifer', cursive;" class="form-control" name="email"
+                    placeholder="Your Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  <input type="text" style="font-family:'Nosifer', cursive;" class="form-control" name="subject"
+                    placeholder="Subject" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  <textarea class="form-control" style="font-family:'Nosifer', cursive;" name="message" rows="6"
+                    placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -1429,7 +1459,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button type="submit" style="font-family:'Russo One', sans-serif;">Send Message</button>
                 </div>
 
               </div>
@@ -1458,7 +1488,8 @@
           </div>
           <div class="col-lg-6">
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Subscribe"
+                style="font-family:'Russo One', sans-serif;">
             </form>
           </div>
         </div>
@@ -1490,11 +1521,17 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">Inventor</a></li>
               <li><i class="bi bi-chevron-right"></i> <a
-                  href="https://www.codingal.com/competitions/radio-street-code-factor/">Competition Page</a></li>
+                  href="https://gtmetrix.com/reports/theradioinv.adityavermareal.repl.co/Zz2R0KZ9/"
+                  target="blank"><b>Website
+                    Performance Index</b></a>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="https://www.codingal.com/competitions/radio-street-code-factor/" target="blank">Competition
+                  Page</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="index.html#Details">Details</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="/assets/apk/theradioinv.apk">Download Mobile App</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/assets/apk/theradioinv.apk">Download
+                  Mobile App</a></li>
             </ul>
           </div>
 
