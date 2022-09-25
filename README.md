@@ -30,7 +30,7 @@ HTML FILES = 11<br>
 JS FILES = 1<br>
 CSS FILES = 1<br>
 MISC = 69<br>
-https://www.linkedin.com/in/aditya-verma-real/<br>
+LINKEDIN = https://www.linkedin.com/in/aditya-verma-real/<br>
 INSTAGRAM = https://www.instagram.com/aditya_verma_real/ <br>
 TWITTER = https://twitter.com/ADITYAVOFFICIAL<br>
 GITHUB = https://github.com/ADITYAVOFFICIAL<br>
