@@ -17,7 +17,7 @@ PROGRAM USED<br>
 
 $$DESCRIPTION$$<br>
 
-This website shares the knowledge on my beloved invention the radio. It has info on the inventor, the invention with past of radio development & wireless telegraphy (works of other scientists). I've made this website with full dedication, hard work and creativity. Made the code as clean as I could make it. [MAY TAKE SOME TIME TO LOAD AS PER YOUR INTERNET CONNECTION AND DEVICE]. I am a class 12 student of NCS Mumbai.<br>
+This website shares the knowledge on my beloved invention the radio. It has info on the inventor, the invention with past of radio development & wireless telegraphy (works of other scientists). I've made this website with full dedication, hard work and creativity.<br>
 
 DURATION IN MAKING = 32 DAYS<br>
 AUTHOR = ADITYA VERMA<br>
@@ -30,7 +30,7 @@ HTML FILES = 11<br>
 JS FILES = 1<br>
 CSS FILES = 1<br>
 MISC = 69<br>
-
+https://www.linkedin.com/in/aditya-verma-real/<br>
 INSTAGRAM = https://www.instagram.com/aditya_verma_real/ <br>
 TWITTER = https://twitter.com/ADITYAVOFFICIAL<br>
 GITHUB = https://github.com/ADITYAVOFFICIAL<br>
